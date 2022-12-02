@@ -4,10 +4,10 @@ export interface IColor {
 }
 
 export interface IPalette {
-    paletteName: string
-    id: string
-    emoji: string
-    colors: IColor[]
+        paletteName: string
+        id: string
+        emoji: string
+        colors: IColor[]
 }
 
 const palettes:IPalette[] = [
