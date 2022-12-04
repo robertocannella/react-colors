@@ -10,7 +10,7 @@ export interface IPalette {
         colors: IColor[]
 }
 
-const palettes:IPalette[] = [
+const palettes:IPalette[] =[
     {
         paletteName: "Material UI Colors",
         id: "material-ui-colors",
